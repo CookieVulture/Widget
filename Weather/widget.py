@@ -8,10 +8,7 @@ W = 600
 
 def func(entry):
     print("Button click", entry)
-
-    #61b652949defc856de6d7fbe910f7127
-    #api.openweathermap.org/data/2.5/forecast?q={city name},{state},{country code}&appid={your api key}
-
+    
 def weather(data):
     key = '61b652949defc856de6d7fbe910f7127'
     link = 'https://api.openweathermap.org/data/2.5/weather'
@@ -36,7 +33,7 @@ def format(info):
 
 
 app = tk.Tk()
-image = Image.open('E:\\New folder\\Projects\\img.png')
+image = Image.open('img.png')
 image = image.resize((500, 600))
 image2 = ImageTk.PhotoImage(image)
 

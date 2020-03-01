@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['widget.py'],
-             pathex=['E:\\New folder\\Projects'],
+             pathex=['C:\\Users\\dpat5\\Desktop\\leetcode\\python_projects\\Weather'],
              binaries=[],
              datas=[],
              hiddenimports=[],

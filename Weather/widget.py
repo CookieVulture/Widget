@@ -25,7 +25,8 @@ def format(info):
         des = info['weather'][0]['description']
         temp = info['main']['temp']
         feel = info['main']['feels_like']
-        result = "City : {}\n Weather Condition : {}\n Description : {}\n Temperature (Celsius) : {}\n Temperature feels like : {}".format(name,condition,des,temp,feel)
+        result = "City : {}\n Weather Condition : {}\n Description : {}\n Temperature (Celsius) : {}\n Temperature feels like : {} \n \n \nMade by Dhairya".format(name,condition,des,temp,feel)
+
     except:
         result = "Can't find data. Try again!"
 
